@@ -1,93 +1,41 @@
-var a ,b 
-a=3
-b=5
-sum=a+b;
-console.log(sum);
 
-
-
-let height = 3
-let width = 3
-area= height*width
-console.log(area);
-
-
-let age1 =19
-if (age1>=18){
-    console.log('eligible for voting');
-}
-    if (age1<=18){
-        console.log('not eligible for voting');
+function calculateFactorial(n) {
+    let result = 1;
+    for (let i = 1; i <= n; i++) {
+        result *= i;
     }
-
-
- let mark =79
- 
-if  ( mark  >=60 && mark <= 69 ){
-    console.log('GRADE D');
-
-}
-if (mark >=70&& mark <=79) {
-    console.log('GRADE C');
+    return result;
 }
 
 
 
-let number = 5
- 
-if  ( number >=1 ){
-    console.log('positive');
+const number= 5; 
+console.log(`The factorial of ${number} is ${calculateFactorial(number)}`);
 
-}
-if (number <=-1 ) {
-    console.log('negative');
-}
-if (number <=0) {
-    console.log('zero');
-}
+const doubleArray = (arr) => {
+    
+    return arr.map(num => num * 2);
+};
 
+const numbers = [1, 4, 7, 3, 5];
+const doubledNumbers = doubleArray(numbers);
 
-
-
-
-let age=9
- 
-if  ( age  >=0 && age <= 12 ){
-    console.log('CHILD');
-
-}
-if (age >=13&& age <=19) {
-    console.log('TEENEGER');
-}
-if  ( age  >=20 && age <= 59 ){
-    console.log('ADULT');
-}
-
-if  ( age  >=60 ){
-    console.log('SENIOR');
-
-}
+console.log(doubledNumbers); 
 
 
 
 
 
+let hello = [1,2,3,4,5,6,8]
+console.log(hello);
 
-let arr = [1, 3, 9, 12, 15, 18, 21];
-let square = arr.map((arr)=>{
-return arr ** 2;
-})
-console.log(square);
+function process (hi){
+
+    for(i=0 ; i<arr.length; i++
+    )
+    {
+console.log(hi[i]);
 
 
-let i 
-let sum1 =0
-for (i = 1 ; i<=10; i++) {
-
-    if (i%3 === 0 ){
-        console.log('i is an odd number');
     }
-
 }
-
-kk
